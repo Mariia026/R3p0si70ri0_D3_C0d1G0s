@@ -1,6 +1,6 @@
-<!-- FONDO -->  
+/* FONDO */  
 
-<!--  Color del fondo -->  
+/*  Color del fondo */  
 
 
 
@@ -15,9 +15,9 @@ body {
 
 
 
-<!-- PRIMER CUADRO DE ARRIBA --> 
+/* PRIMER CUADRO DE ARRIBA */ 
 
-<!-- Scrollbar del cuadro de arriba -->  
+/* Scrollbar del cuadro de arriba */  
 
 div#bordeado-y-posicion ::-webkit-scrollbar { 
     width: 5px;
@@ -34,7 +34,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 
 
 
-<!-- Cuadro y texto Sobre mi -->  
+/* Cuadro y texto Sobre mi */  
 
 /* Borde y posición del cuadro */
 #bordeado-y-posicion {
@@ -62,7 +62,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 	
 
 
-<!-- Posición del texto en el cuadro -->  
+/* Posición del texto en el cuadro */  
 
 .posicion-descripcion {
     width: 200px;
@@ -80,7 +80,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 
 
 
-<!-- Efectos y texto de la primer imagen izquierda (Imagen izquierda) --> 
+/* Efectos y texto de la primer imagen izquierda (Imagen izquierda) */ 
 
 /* Texto en la primer imagen izquierda */
 .texto-izquierdo {
@@ -155,7 +155,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 
 
 
-<!-- Efectos y texto de la segunda imagen central (Imagen del centro) --> 
+/* Efectos y texto de la segunda imagen central (Imagen del centro) */ 
 
 /* Texto en la segunda imagen */
 .biografia {
@@ -211,7 +211,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 
 
 
-<!-- Efectos de la tercer imagen derecha (Imagen derecha) -->  
+/* Efectos de la tercer imagen derecha (Imagen derecha) */  
 
 #cuadro1, #cuadro2, #cuadro3 {
     background-color: #ffffff; 
@@ -257,7 +257,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 
 
 
-<!-- Textos separadores --> 
+/* Textos separadores */ 
 
 /* Título Del separador de un cuadro a otro */
 .Texto-separador {
@@ -282,9 +282,9 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 
 
 
-<!-- Scrollbar de todo el sitio y Efecto de luciernagas --> 
+/* Scrollbar de todo el sitio y Efecto de luciernagas */ 
 
-<!-- Scrollbar de toda la página -->  
+/* Scrollbar de toda la página */  
 
 ::-webkit-scrollbar-track {
     background:url(https://i.ibb.co/hMWC5BK/fondo-scrollbar.gif);
@@ -308,7 +308,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 
 
 
-<!-- Efecto de luciernagas en la parte superior de la página -->  
+/* Efecto de luciernagas en la parte superior de la página */  
 
 /* luciernagas */
 .luciernagas {
@@ -335,9 +335,9 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 
 
 
-<!-- Información y datos sobre mi -->  
+/* Información y datos sobre mi */  
 
-<!-- Homepage (Información contenido del cuadro) -->   
+/* Homepage (Información contenido del cuadro) */   
 
 /* Acomoda mejor el contenido de ‘Inicio’ ‘Sobre mi’ ‘Pedidos’ ‘Contacto’ */
 .caja-contenedora {  
@@ -375,7 +375,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 
 
 
-<!-- Diseño color efecto y texto de los botones -->  
+/* Diseño color efecto y texto de los botones */  
 /* Diseño de los botones */ 
 #botones { 
     Display: block;
@@ -416,7 +416,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 
 
 
-<!-- Cuadro de música --> 
+/* Cuadro de música */ 
 
 /* Cuadro contenedor del video */
 #Contenedor-video {    
@@ -492,7 +492,7 @@ video#vjs_video_3_html5_api {
 
 
 
-<!-- Sectores de 'Inicio' --> 
+/* Sectores de 'Inicio' */ 
 
 /* Diseño del separador del inicio */
 p#div_Separador_Inicio {
@@ -540,7 +540,7 @@ div#div_Spam_Inicio {
 
 
 
-<!-- Sector de los Contactos --> 
+/* Sector de los Contactos */ 
 
 #Caja-de-Contacto {
     margin-left: 6px;
@@ -617,7 +617,7 @@ div#div_Spam_Inicio {
 
 
 
-<!-- Sector de los pedidos --> 
+/* Sector de los pedidos */ 
 
 #Caja-de-Pedidos {
 	padding: 28px;
@@ -655,7 +655,7 @@ div#div_Spam_Inicio {
 
 
 
-<!-- Barra deslizable del cuadro de pedidos  (scrollbar) -->   
+/* Barra deslizable del cuadro de pedidos  (scrollbar) */   
 
 div#container ::-webkit-scrollbar-thumb {
   background: #ff9fcf !important; 
@@ -700,7 +700,7 @@ div#container ::-webkit-scrollbar {
 
 
 
-<!-- Cursores -->  
+/* Cursores */  
 
 /* Cursor de toda la página  */
 body, html{
@@ -737,7 +737,7 @@ html.no-js.unified-controls-context.es_ES.whatinput-types-initial a {
 
 
 
-<!-- Spoiler de la FAQ--> 
+/* Spoiler de la FAQ*/ 
 
 /* diseño y fondo del Spoiler para el FAQ */
 div#div_contenido_spoiler {
@@ -782,9 +782,9 @@ div#div_contenido_spoiler {
 
 
 
-<!--  Complementos de adornos --> 
+/*  Complementos de adornos */ 
 
-<!-- Luciernagas --> 
+/* Luciernagas */ 
 
 /* Luciernagas */
 .Luciernagas {
@@ -808,7 +808,7 @@ div#div_contenido_spoiler {
 
 
 
-<!-- Nombre del sonido (audio) del perfil --> 
+/* Nombre del sonido (audio) del perfil */ 
 
 div#Nombre_del_sonido {
 	color: yellow; 
