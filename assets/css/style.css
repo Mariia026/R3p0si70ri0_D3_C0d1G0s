@@ -416,81 +416,6 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 
 
 
-/* Cuadro de música */ 
-
-/* Cuadro contenedor del video */
-#Contenedor-video {    
-    width: 291px;
-    height: 164px;
-    z-index: 15;
-    margin-left: -10px;
-    margin-top: 16px;
-    background-color: #F44336 !important;
-    background-image: linear-gradient(rgba(248, 177, 177, 0.62), rgba(139, 195, 74, 0.62)) !important;
-}
-
-.vjs-control-bar {
-    position: absolute !important;
-    top: 679px !important;
-    margin-left: 97px !important;
-    z-index: -5 !important;
-}
-
-.vjs-error-display.vjs-modal-dialog.vjs-hidden {
-    position: absolute !important;
-	top: 1px !important;
-	lef: 1px !important;
-    z-index: -5 !important;
-} 
-
-.vjs-tech div.vjs-poster {
-    opacity: 0;
-    width: 291px;
-    height: 291px;
-    margin-left: -1px;
-    margin-top: -17px;
-}
-
-
-video#vjs_video_3_html5_api {
-    opacity: 1 !important;
-	width: 291px !important;
-    height: 164px !important;
-}
-
-.vjs-poster {
-    width: 0px !important;
-}
-
-.vjs-time-control.vjs-time-divider, .vjs-duration.vjs-time-control.vjs-control, .vjs-progress-control.vjs-control, button.vjs-fullscreen-control.vjs-control.vjs-button, span.vjs-control-text, .vjs-mute-control.vjs-control.vjs-vol-0, .mute-icon, .vjs-error-display.vjs-modal-dialog.vjs-hidden, p#vjs_video_3_component_183_description {
-    height: 0px !important;
-	width: 0px !important;
-	font-size: 0px !important;
-}
-
-
-
-.vjs-user-inactive  {
-    background: url(https://i.ibb.co/z4mmqLn/Play-Pausa.png) no-repeat  !important;
-	width: 291px !important;
-    height: 164px;
-}
-
-.vjs-user-inactive:hover  {
-    background: url(https://i.ibb.co/z4mmqLn/Play-Pausa.png) no-repeat  !important;
-}
-
-.vjs-user-active:hover {
-    background: url(https://i.ibb.co/z4mmqLn/Play-Pausa.png) no-repeat  !important;
-}
-
-.vjs-user-active {
-    background: url(https://i.ibb.co/z4mmqLn/Play-Pausa.png) no-repeat  !important;
-	width: 291px !important;
-    height: 164px;
-}
-
-
 
 /* Sectores de 'Inicio' */ 
 
@@ -812,7 +737,7 @@ div#div_contenido_spoiler {
 
 div#Nombre_del_sonido {
 	color: yellow; 
-	font-size: 24px;
+	font-size: 24px; 
 }
 
 .Sonido_de_audio {
