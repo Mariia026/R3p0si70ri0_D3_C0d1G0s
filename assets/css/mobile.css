@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px){
 
 body{
-zoom:0.8;
+zoom:1.8;
 overflow-x:hidden;
 }
 
@@ -11,19 +11,6 @@ height:auto !important;
 margin:auto !important;
 }
 
-.panel{
-width:100% !important;
-display:block !important;
-float:none !important;
-}
 
-img{
-max-width:100% !important;
-height:auto !important;
-}
-
-iframe{
-width:100% !important;
-}
 
 }
