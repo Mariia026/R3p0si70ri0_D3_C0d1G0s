@@ -1,12 +1,11 @@
 @media screen and (max-width: 768px){
 
 body{
-  background: green;
 zoom:0.8;
 overflow-x:hidden;
 }
 
-#contenedor{
+#bordeado-y-posicion {
 width:95% !important;
 height:auto !important;
 margin:auto !important;
