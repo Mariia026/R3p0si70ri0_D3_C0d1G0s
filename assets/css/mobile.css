@@ -1,16 +1,29 @@
 @media screen and (max-width: 768px){
 
 body{
-zoom:1.8;
+zoom:0.8;
 overflow-x:hidden;
 }
 
-#bordeado-y-posicion {
+#contenedor{
 width:95% !important;
 height:auto !important;
 margin:auto !important;
 }
 
+.panel{
+width:100% !important;
+display:block !important;
+float:none !important;
+}
 
+img{
+max-width:100% !important;
+height:auto !important;
+}
+
+iframe{
+width:100% !important;
+}
 
 }
