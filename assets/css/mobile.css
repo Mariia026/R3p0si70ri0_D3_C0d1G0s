@@ -1,10 +1,16 @@
 @media screen and (max-width: 768px){
 
 body{
+  background: green;
 zoom:0.8;
 overflow-x:hidden;
 }
 
+.Titulo-del-cuadro1-cuadro2-cuadro3 {
+  background: red;
+}
+
+  
 #contenedor{
 width:95% !important;
 height:auto !important;
