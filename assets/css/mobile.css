@@ -4,7 +4,11 @@ body{
     background: green;
 zoom:0.8;
 overflow-x:hidden;
+
+.titulo-sobre-mi {
+    margin-left: -270px;
 }
+
 
 #contenedor{
 width:95% !important;
@@ -18,14 +22,20 @@ display:block !important;
 float:none !important;
 }
 
-img{
+/*img{
 max-width:100% !important;
 height:auto !important;
-}
+}*/
 
 iframe{
 width:100% !important;
 }
+
+}
+
+
+
+@media (max-width:768px){
 
 #efecto-izquierdo,
 #efecto-centro,
