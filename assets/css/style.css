@@ -160,12 +160,12 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 
 #efecto-izquierdo:hover .orientacion { 
     opacity: 1; 
-	transition-delay: 0.2s;
+	transition-delay: 0.3s;
 }
 
 #efecto-izquierdo:hover .pais { 
     opacity: 1; 
-	transition-delay: 0.4s; 
+	transition-delay: 0.5s; 
 }
 
 
@@ -230,6 +230,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 /* Efectos de la tercer imagen derecha (Imagen derecha) */  
 
 #cuadro1, #cuadro2, #cuadro3 {
+	background-color: #ffffff;
     color: #666666; 
     font-family: georgia;
     font-size: 8.5px;
@@ -248,17 +249,6 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
     -o-transition: 0.8s;
 }
 
-#cuadro1{
-    background-color: #ffffff;
-}
-
-#cuadro2 {
-    background-color: #afc97a;
-}
-
-#cuadro3 {
-    background-color: #e39dc9;
-}
 
 #cuadro2 { margin: 127px 50px; }
 #cuadro3 { margin: 240px -20px; }
