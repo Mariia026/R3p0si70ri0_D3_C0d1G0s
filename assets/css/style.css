@@ -113,8 +113,8 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 }
 
 .edad {
-    border-right: 10px solid #93a8e6 /*#9cb0ec*/; 
-    border-left: 10px solid #93a8e6; 
+    border-right: 10px solid #708090 /*#9cb0ec*/; 
+    border-left: 10px solid #708090; 
 }
 
 .orientacion {
@@ -123,7 +123,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 }
 
 .pais {
-    border-right: 10px solid #708090 /*#556dce*/; 
+    border-right: 10px solid #9cb0ec /*#556dce*/; 
     border-left: 10px solid #708090; 
 }
 
