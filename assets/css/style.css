@@ -1,23 +1,6 @@
-/* FONDO */  
-
-/*  Color del fondo */  
-
-
-
 body {
     background-color: #000;
 }
-
-
-
-
-
-
-
-
-/* PRIMER CUADRO DE ARRIBA */ 
-
-/* Scrollbar del cuadro de arriba */  
 
 div#bordeado-y-posicion ::-webkit-scrollbar { 
     width: 5px;
@@ -32,11 +15,6 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
     background-color: #a4a6b7 !important ;
 }
 
-
-
-/* Cuadro y texto Sobre mi */  
-
-/* Borde y posición del cuadro */
 #bordeado-y-posicion {
     width: 600px;
     height: 350px;
@@ -46,7 +24,6 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
     box-shadow: 0px 0px 13px 9px #c1e3d6b8;
 }
 
-/* Titulo sobre mí */
 .titulo-sobre-mi {
     color: #000000; 
     text-shadow: -2px 0 0 #fff; 
@@ -58,11 +35,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
     text-align: right;
     text-transform: uppercase;
     margin: -50px 0;
-}	
-	
-
-
-/* Posición del texto en el cuadro */  
+}
 
 .posicion-descripcion {
     width: 200px;
@@ -70,7 +43,6 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
     float: left;
 }
 
-/* Mantiene el texto en su respectiva imagen */
 #efecto-izquierdo, #efecto-centro, #efecto-derecho {
     width:200px;
 	height:350px;
@@ -78,11 +50,6 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 	overflow:hidden;
 }
 
-
-
-/* Efectos y texto de la primer imagen izquierda (Imagen izquierda) */ 
-
-/* Texto en la primer imagen izquierda */
 .texto-izquierdo {
     position: absolute;
     width: 200px;
@@ -99,7 +66,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
     font-size: 9px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: red /*#555*/;
+    color: #555;
     padding: 3px 10px;
     margin-bottom: 5px;
     opacity: 0;
@@ -123,8 +90,8 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 }
 
 .pais {
-    border-right: 10px solid #9cb0ec /*#556dce*/; 
-    border-left: 10px solid #708090; 
+    border-right: 10px solid #93a8e6 /*#556dce*/; 
+    border-left: 10px solid #93a8e6; 
 }
 
 
@@ -134,7 +101,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 }
 
 .edad b,strong { 
-    color: #93a8e6; 
+    color: #708090; 
 } 
 
 .orientacion b,strong {
@@ -142,7 +109,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 }
 
 .pais b,strong { 
-    color: #708090; 
+    color: #93a8e6; 
 } 
 
 #efecto-izquierdo:hover .texto-izquierdo { 
@@ -168,12 +135,6 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 	transition-delay: 0.5s; 
 }
 
-
-
-
-/* Efectos y texto de la segunda imagen central (Imagen del centro) */ 
-
-/* Texto en la segunda imagen */
 .biografia {
     color: #888888; 
     width: 140px;
@@ -223,11 +184,6 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 #efecto-centro:hover .efecto-derecho { height: 350px; transition-delay: 0.4s; }
 #efecto-centro:hover .efecto3 { height: 350px; transition-delay: 0.6s; }
 #efecto-centro:hover .biografia { opacity: 1; }
-
-
-
-
-/* Efectos de la tercer imagen derecha (Imagen derecha) */  
 
 #cuadro1, #cuadro2, #cuadro3 {
 	background-color: #ffffff;
@@ -299,9 +255,6 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
     text-transform: uppercase;
 }
 
-/* Textos separadores */ 
-
-/* Título Del separador de un cuadro a otro */
 .Texto-separador {
     color: #bd2259;
     text-shadow: -2px 0 0 #cff;
@@ -316,17 +269,6 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
     letter-spacing: 5px;
     font-size: 30px;
 }
-
-
-
-
-
-
-
-
-/* Scrollbar de todo el sitio y Efecto de luciernagas */ 
-
-/* Scrollbar de toda la página */  
 
 ::-webkit-scrollbar-track {
     background:url(https://i.ibb.co/hMWC5BK/fondo-scrollbar.gif);
@@ -348,412 +290,6 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
     height: 0px;
 }
 
-
-
-/* Efecto de luciernagas en la parte superior de la página */  
-
-/* luciernagas */
-.luciernagas {
-    width: 1px;
-    height: 1px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    animation: fadeOut 3s ease-out;
-    border-radius: 10px;
-    opacity: 0;
-}
-
-@keyframes fadeOut { 
-    from { opacity: 0;}
-    10% { opacity: 1; } 
-    to { opacity: 0; }
-}
-
-
-
-
-
-
-
-/* Información y datos sobre mi */  
-
-/* Homepage (Información contenido del cuadro) */   
-
-/* Acomoda mejor el contenido de ‘Inicio’ ‘Sobre mi’ ‘Pedidos’ ‘Contacto’ */
-.caja-contenedora {  
-	padding: 10px 20px;
-    text-align: justify;
-}
-
-/* Diseño y color del cuadro donde va todo el contenido de ‘Inicio’ ‘Sobre mi’ ‘Pedidos’ ‘Contacto’ */
-#contenido-de-caja {
-    z-index: 15;
-    margin-left: -25px;
-    margin-top: 51px;
-    width: 660px;
-    height: 272px;
-    background-color: #F44336 !important;
-    background-image: linear-gradient(rgba(248, 177, 177, 0.62), rgba(139, 195, 74, 0.62)) !important;
-    font-size: 18;
-    overflow: auto;
-}
-
-/* Posiciona el contenido en la imagen  */
-#posicion-contenido{
-    position: absolute; 
-	z-index: -1;
-} 
-
-/* Contenido container */
-#contenido{
-    display: none !important;
-}
-
-
-
-
-
-
-
-/* Diseño color efecto y texto de los botones */  
-/* Diseño de los botones */ 
-#botones { 
-    Display: block;
-    width: 150px;
-    padding-top: 23px;
-    padding-bottom: 15px;
-    line-height: 1em;
-    margin-top: -1.5em;
-    margin: 1px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: -1px 0 2px #f8efe9, 1px 0 2px #f8efe9, 0px -1px 2px #f8efe9, 0px 1px 2px #f8efe9, -1px 0 2px #f8efe9, 1px 0 2px #f8efe9, 0px -1px 2px #f8efe9, 0px 1px 2px #f8efe9, -1px 0 2px #f8efe9, 1px 0 2px #f8efe9, 0px -1px 2px #f8efe9, 0px 1px 2px #f8efe9, -1px 0 2px #f8efe9, 1px 0 2px #f8efe9, 0px -1px 2px #f8efe9, 0px 1px 2px #f8efe9;
-    font-size: 12px;
-    text-align: center;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-    text-decoration: none;
-    border: 1px solid rgba(255, 255, 139, 0);
-    background-color: #F44336 !important;
-    background-image: linear-gradient(rgba(248, 177, 177, 0.62), rgba(139, 195, 74, 0.62)) !important;
-} 
-
-/* Efecto del texto y botón saltarín  */
-#botones:hover {
-    letter-spacing: 8px;
-    border: 1px solid rgba(255, 255, 139, 0);
-    -webkit-animation: efecto-botones .7s alternate infinite linear;
-}
-
-/* Código del efecto de cada botón  */ 
-@-webkit-keyframes efecto-botones { 0% {-webkit-transform: rotate(-5deg); } 25% {-webkit-transform: rotate(4deg); } 50% {-webkit-transform: rotate(-6deg); } 75% {-webkit-transform: rotate(9deg); } 100% {-webkit-transform: rotate(-5deg); } 100% {-webkit-transform: translatey(-10px);} }
-.efecto-botones:hover { -webkit-animation: efecto-botones .7s alternate infinite linear; }
-
-
-
-
-
-/* Sectores de 'Inicio' */ 
-
-/* Diseño del separador del inicio */
-p#div_Separador_Inicio {
-    text-decoration: none;
-    text-shadow: -1px 0 2px rgb(34, 44, 99), 1px 0 2px #3f51b5, 0px -1px 2px #3f51b5, 0px 1px 2px #3f51b5, -1px 0 2px #3f51b5, 1px 0 2px #3f51b5, 0px -1px 2px #3f51b5, 0px 1px 2px #3f51b5, -1px 0 2px #3f51b5, 1px 0 2px #3f51b5, 0px -1px 2px #3f51b5, 0px 1px 2px #3f51b5, -1px 0 2px #3f51b5, 1px 0 2px #3f51b5, 0px -1px 2px #3f51b5, 0px 1px 2px #3f51b5;
-    color: black;
-    font-family: Algerian;
-    font-weight: 700;
-    font-size: 20px;
-    display: block;
-    text-align: -webkit-center;
-}
-
-/* Diseño del Spam promocional para atraer compradores */
-div#div_Spam_Inicio {
-	color: #e4eba7;
-    overflow: auto;
-    border: 2px solid;
-    border-color: #9c27b0;
-    height: 83px;
-    width: 663px;
-    margin-left: -12px;
-	display: block;
-    text-align: -webkit-center;
-}
-
-#div_Spam_Inicio a:hover {
-    color: #325b6f;
-    cursor: crosshair !important;
-    text-decoration: none;
-    background-color: #e4eba7;
-}
-
-#div_Spam_Inicio a {
-	color: blanchedalmond;
-    cursor: crosshair !important;
-    text-decoration: none;
-}
-
-/* Achica el scrollbar del Spam promocional */
-#contenido-de-caja div#div_Spam_Inicio ::-webkit-scrollbar {
-    width: 0px !important;
-    height: 0px !important;
-}
-
-
-
-/* Sector de los Contactos */ 
-
-#Caja-de-Contacto {
-    margin-left: 6px;
-    width: 618px;
-    height: 257px;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding: 6px;
-    border: 2px ridge #e0f8ec;
-    font-family: tahoma;
-    font-size: 15px;
-    background: url(https://i.ibb.co/mJFJZHJ/fondo-contacto.png);
-}
-
-#Caja-de-Contacto .h1 {
-    font-family: Century gothic;
-    font-size: 20px;
-    line-height: 20px;
-    color: chocolate;
-    letter-spacing: -1pt;
-    font-weight: none;
-    text-align: left;
-}
-
-#Caja-de-Contacto y {
-    font-family: Arial;
-    line-height: 14px;
-    color: #b9c767;
-    letter-spacing: -1pt text-align: left;
-}
-
-#Caja-de-Contacto u {
-    font-color: coral;
-    border-bottom: 2px solid #03a9f4;
-}
-
-#Caja-de-Contacto b {
-    color: #fceef2;
-    background-color: #eb7b9a;
-}
-
-#Caja-de-Contacto a:link {
-	color: #8ec2b7;
-	cursor: default !importan;
-	text-decoration:none;
-}
-
-#Caja-de-Contacto a:link a:-webkit-any-link {
-	color: #8ec2b7;
-}
-
-#Caja-de-Contacto a:hover {
-	color: #4b5209;
-	cursor: crosshair !important;
-	text-decoration:none;
-	background-color:#e4eba7;
-}
-
-#Caja-de-Contacto blockquote {
-	border: 1px dotted #b02405;
-	padding: 5px;
-}
-
-
-#Caja-de-Contacto .enlaces {
-	color: #be3e6f; 
-	text-decoration: none
-}
-
-#Caja-de-Contacto .enlaces:hover {
-	color: #03a9f4; 
-	text-decoration: none
-}
-
-
-
-/* Sector de los pedidos */ 
-
-#Caja-de-Pedidos {
-	padding: 28px;
-    margin: 8px auto;
-    width: 581px;
-    -moz-border-radius: 15px;
-    border-radius: 9px;
-    border-width: 3px;
-    background-color: white;
-    border-style: double;
-    border-color: #009688;
-    border-image: initial;
-    -webkit-box-shadow: 0px 0px 20px 0px cornflowerblue;
-}
-
-#Caja-de-Pedidos .h1 {
-    font-family: Century gothic;
-    font-size: 20px;
-    line-height: 20px;
-    color: #c52b2b;
-    letter-spacing: -1pt;
-	font-style: italic;
-    font-weight: none;
-    text-align: left;
-	font-weight: bold;
-	text-transform: uppercase;
-	letter-spacing: 5px;
-}
-    
-#Caja-de-Pedidos u {
-    color: #4b5209;
-    border-bottom: 2px solid #e7f05a;
-}
-
-
-
-
-/* Barra deslizable del cuadro de pedidos  (scrollbar) */   
-
-div#container ::-webkit-scrollbar-thumb {
-  background: #ff9fcf !important; 
-  border: 40px none #ffffff !important; 
-  border-radius: 0px !important; 
-  -webkit-box-shadow: inset 0px 0px 10px hsla(0, 0%, 40%, 0) !important; 
-}
-
-div#container ::-webkit-scrollbar-thumb:hover {
-  background: #ff9fcf !important; 
-  -webkit-box-shadow: inset 0px 0px 10px hsla(0, 0%, 40%, 0) !important; 
-}
-
-div#container ::-webkit-scrollbar-thumb:active {
-  background: #ff9fcf !important; 
-}
-
-div#container ::-webkit-scrollbar-track {
-  background: #ffcae4 !important; 
-  border: 0px none #ffffff !important; 
-  border-radius: 0px !important; 
-}
-
-div#container ::-webkit-scrollbar-track:hover {
-  background: #ffcae4 !important; 
-}
-
-div#container ::-webkit-scrollbar-track:active {
-  background: #ffcae4 !important; 
-}
-
-div#container ::-webkit-scrollbar-corner {
-  background: transparent !important; 
-}
-
-div#container ::-webkit-scrollbar {
-    width: 10px !important; 
-    height: 10px !important; 
-}
-
-
-
-
-
-/* Cursores */  
-
-/* Cursor de toda la página  */
-body, html{
-    cursor: url('https://i.ibb.co/YBkgjDZ/puntero-Xat.png'), progress !important;
-} 
-
-/* Cursor de los botones */
-#botones {
-    cursor: url(https://i.ibb.co/xSrS8nN/mano-Xat.png), progress !important; 
-}
-
-
-/* Cursor de los botones */
-#nav {
-    cursor: crosshair;
-}
-
-/* Cursor del video */
-#Contenedor-video {
-    cursor: all-scroll
-}
-
-/* cursor del enlace del sonido de audio del perfil */
-.Sonido_de_audio {
-    cursor: url(https://i.ibb.co/xSrS8nN/mano-Xat.png), progress !important; 
-}
-
-
-html.no-js.unified-controls-context.es_ES.whatinput-types-initial a {
-    cursor: url(https://i.ibb.co/xSrS8nN/mano-Xat.png), progress !important; 
-}
-
-
-
-
-
-/* Spoiler de la FAQ*/ 
-
-/* diseño y fondo del Spoiler para el FAQ */
-div#div_contenido_spoiler {
-    width: 611px;
-    padding: 8px;
-    background: url(https://i.ibb.co/9tBy968/fondo-faq.png);
-    -webkit-box-shadow: 0px 0px 15px 3px rgba(175, 150, 78, 0.83);
-    color: #ccc;
-    z-index: 100;
-    text-align: left;
-    border-radius: 5px;
-    -ms-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -khtml-border-radius: 5px;
-    height: 486px;
-    overflow: auto;
-    margin-left: 5px;
-}
-
-/* Separador del spoiler para el FAQ */
-.Separador-pregunta-spoiler {
-    color: #fff;
-    background-color: #339966;
-    display: block;
-    font-weight: 600;
-    font-size: 19px;
-    padding: 10px;
-}
-
-/* Respuesta del spoiler para el FAQ */
-.respuesta-spoiler {
-	Arial, Helvetica, Geneva, sans-serif;
-	color: #9a195a;
-	font-weight: bold;
-}
-
-
-
-
-
-
-
-
-/*  Complementos de adornos */ 
-
-/* Luciernagas */ 
-
-/* Luciernagas */
 .Luciernagas {
     width: 1px;
     height: 1px;
@@ -771,20 +307,3 @@ div#div_contenido_spoiler {
     10% { opacity: 1; } 
     to { opacity: 0; }
 }
-
-
-
-
-/* Nombre del sonido (audio) del perfil */ 
-
-div#Nombre_del_sonido {
-	color: yellow; 
-	font-size: 24px; 
-}
-
-.Sonido_de_audio {
-	color: pink;
-    text-decoration: none;}
-
-
-
