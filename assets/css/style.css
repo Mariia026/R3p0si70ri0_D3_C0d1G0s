@@ -113,8 +113,8 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 }
 
 .edad {
-    border-right: 10px solid #723f71; 
-    border-left: 10px solid #723f71; 
+    border-right: 10px solid #bccbf8; 
+    border-left: 10px solid #bccbf8; 
 }
 
 .orientacion {
@@ -134,7 +134,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 }
 
 .edad b,strong { 
-    color: #723f71; 
+    color: #bccbf8; 
 } 
 
 .orientacion b,strong {
