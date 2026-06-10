@@ -267,7 +267,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 #efecto-derecho:hover #cuadro2 { opacity: 1;transition-delay:0.2s; margin: 127px 15px; }
 #efecto-derecho:hover #cuadro3 { opacity:1;transition-delay:0.4s;margin: 240px 15px; }
 
-.Titulo-del-cuadro1-cuadro2-cuadro3 {
+.Titulo-del-cuadro1 {
     background-color: #ffc8b8; 
     color: #ffffff; 
     letter-spacing: 1px;
@@ -281,8 +281,33 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
     text-transform: uppercase;
 }
 
+.Titulo-del-cuadro2 {
+    background-color: #ffc8b8; 
+    color: #ffffff; 
+    letter-spacing: 1px;
+    font-family: consolas;
+    font-size: 8px;
+    position: absolute;
+    text-align: center;
+    width: 170px;
+    padding: 3px 0 3px 10px;
+    margin: -20px -20px 10px -20px;
+    text-transform: uppercase;
+}
 
-
+.Titulo-del-cuadro3 {
+    background-color: #ffc8b8; 
+    color: #ffffff; 
+    letter-spacing: 1px;
+    font-family: consolas;
+    font-size: 8px;
+    position: absolute;
+    text-align: center;
+    width: 170px;
+    padding: 3px 0 3px 10px;
+    margin: -20px -20px 10px -20px;
+    text-transform: uppercase;
+}
 
 /* Textos separadores */ 
 
