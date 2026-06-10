@@ -94,7 +94,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
     -o-transition: 0.8s;
 }
 
-.nombre, .edad, .pais {
+.nombre, .orientacion, .edad, .pais {
     font-family: consolas;
     font-size: 9px;
     text-transform: uppercase;
@@ -117,6 +117,10 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
     border-left: 10px solid #723f71; 
 }
 
+.orientacion {
+	border-right: 10px solid #deb887; 
+    border-left: 10px solid #deb887; 
+}
 .pais {
     border-right: 10px solid #556dce; 
     border-left: 10px solid #556dce; 
@@ -125,6 +129,10 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 .nombre b,strong { 
     color: #88452c; 
 } 
+
+.orientacion b,strong {
+	 color: #deb887;
+ }
 
 .edad b,strong { 
     color: #723f71; 
@@ -139,6 +147,10 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 }
 
 #efecto-izquierdo:hover .nombre { 
+    opacity: 1; 
+}
+
+#efecto-izquierdo:hover .orientacion { 
     opacity: 1; 
 }
 
@@ -214,7 +226,6 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 /* Efectos de la tercer imagen derecha (Imagen derecha) */  
 
 #cuadro1, #cuadro2, #cuadro3 {
-    background-color: #ffffff; 
     color: #666666; 
     font-family: georgia;
     font-size: 8.5px;
@@ -231,6 +242,18 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
     -moz-transition: 0.8s;
     -webkit-transition: 0.8s;
     -o-transition: 0.8s;
+}
+
+#cuadro1{
+    background-color: #ffffff;
+}
+
+#cuadro2 {
+    background-color: #afc97a;
+}
+
+#cuadro3 {
+    background-color: #e39dc9;
 }
 
 #cuadro2 { margin: 127px 50px; }
