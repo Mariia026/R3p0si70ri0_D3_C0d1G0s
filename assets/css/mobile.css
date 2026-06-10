@@ -1,12 +1,11 @@
 @media screen and (max-width: 768px){
 
 body{
-    background: green;
 zoom:0.8;
 overflow-x:hidden;
 
 .titulo-sobre-mi {
-    margin-left: -270px !important;
+    margin-left: -270px !important ;
 }
 
 
@@ -71,9 +70,13 @@ margin:20px auto !important;
 }
 
 #bordeado-y-posicion{
-    width:60.8vw !important;
-    max-width:80vw !important;
+    width:80.8vw !important;
+    max-width:60vw !important;
     height:auto !important;
+}
+
+.texto-izquierdo {
+    margin-top: 240px !important;
 }
 
 }
