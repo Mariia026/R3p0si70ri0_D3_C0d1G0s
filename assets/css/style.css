@@ -42,8 +42,8 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
     height: 350px;
     margin: 130px auto;
     padding: 10px;
-    background-color: #c1e3d6 /*#fef7d7*/;
-    box-shadow: 0px 0px 13px 9px #c1e3d6b8 /*#bdb8a1b8*/;
+    background-color: #c1e3d6;
+    box-shadow: 0px 0px 13px 9px #c1e3d6b8;
 }
 
 /* Titulo sobre mí */
@@ -113,8 +113,8 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 }
 
 .edad {
-    border-right: 10px solid #bccbf8; 
-    border-left: 10px solid #bccbf8; 
+    border-right: 10px solid #9cb0ec; 
+    border-left: 10px solid #9cb0ec; 
 }
 
 .orientacion {
@@ -123,8 +123,8 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 }
 
 .pais {
-    border-right: 10px solid #556dce; 
-    border-left: 10px solid #556dce; 
+    border-right: 10px solid #708090 /*#556dce*/; 
+    border-left: 10px solid #708090; 
 }
 
 
@@ -134,7 +134,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 }
 
 .edad b,strong { 
-    color: #bccbf8; 
+    color: #9cb0ec; 
 } 
 
 .orientacion b,strong {
@@ -142,7 +142,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 }
 
 .pais b,strong { 
-    color: #556dce; 
+    color: #708090; 
 } 
 
 #efecto-izquierdo:hover .texto-izquierdo { 
