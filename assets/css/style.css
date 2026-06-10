@@ -99,7 +99,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
     font-size: 9px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #555;
+    color: red /*#555*/;
     padding: 3px 10px;
     margin-bottom: 5px;
     opacity: 0;
