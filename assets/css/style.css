@@ -94,7 +94,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
     -o-transition: 0.8s;
 }
 
-.nombre, .orientacion, .edad, .pais {
+.nombre, .edad, .orientacion, .pais {
     font-family: consolas;
     font-size: 9px;
     text-transform: uppercase;
@@ -121,22 +121,25 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 	border-right: 10px solid #deb887; 
     border-left: 10px solid #deb887; 
 }
+
 .pais {
     border-right: 10px solid #556dce; 
     border-left: 10px solid #556dce; 
 }
 
+
+
 .nombre b,strong { 
     color: #88452c; 
-} 
-
-.orientacion b,strong {
-	 color: #deb887;
- }
+}
 
 .edad b,strong { 
     color: #723f71; 
 } 
+
+.orientacion b,strong {
+	 color: #deb887;
+}
 
 .pais b,strong { 
     color: #556dce; 
@@ -150,13 +153,14 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
     opacity: 1; 
 }
 
-#efecto-izquierdo:hover .orientacion { 
-    opacity: 1; 
+#efecto-izquierdo:hover .edad { 
+    opacity: 1;
+	transition-delay: 0.1s;
 }
 
-#efecto-izquierdo:hover .edad { 
+#efecto-izquierdo:hover .orientacion { 
     opacity: 1; 
-	transition-delay: 0.2s; 
+	transition-delay: 0.2s;
 }
 
 #efecto-izquierdo:hover .pais { 
