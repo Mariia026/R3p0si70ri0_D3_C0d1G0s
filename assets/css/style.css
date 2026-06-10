@@ -104,8 +104,8 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
     margin-bottom: 5px;
     opacity: 0;
     background-color: #eee; 
-    border-right: 10px solid #88452c;
-    border-left: 10px solid #88452c; 
+    border-right: 10px solid #b996b4;
+    border-left: 10px solid #b996b4; 
     transition: 0.8s;
     -moz-transition: 0.8s;
     -webkit-transition: 0.8s;
@@ -130,7 +130,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 
 
 .nombre b,strong { 
-    color: #88452c; 
+    color: #b996b4; 
 }
 
 .edad b,strong { 
