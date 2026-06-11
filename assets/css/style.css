@@ -300,7 +300,7 @@ div#bordeado-y-posicion ::-webkit-scrollbar-thumb:vertical {
 .Luciernagas {
     width: 1px;
     height: 1px;
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
